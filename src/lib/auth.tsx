@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "https://fresh15-backend.onrender.com";
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "https://fresh10-backend.onrender.com";
 export const PORTAL = "platform" as const;
 
 const KEY_SESSION = "f15-auth-session";
@@ -148,7 +148,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const role = (u.role || "").toUpperCase();
     const portalOk = !u.portal || u.portal.toLowerCase() === PORTAL;
     if (!portalOk || !ALLOWED_ROLES.includes(role)) {
-      throw new Error("This account does not have access to the fresh15 Platform Hub.");
+      throw new Error("This account does not have access to the Fresh15 Platform Hub.");
     }
     persist({ token: res.data.token, user: u });
     return u;

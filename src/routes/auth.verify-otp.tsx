@@ -9,7 +9,7 @@ import { toast } from "sonner";
 import { Loader2, MailCheck } from "lucide-react";
 
 export const Route = createFileRoute("/auth/verify-otp")({
-  head: () => ({ meta: [{ title: "Verify OTP — fresh15 Admin" }] }),
+  head: () => ({ meta: [{ title: "Verify OTP — Fresh15 Admin" }] }),
   validateSearch: (s: Record<string, unknown>) => ({ email: (s.email as string) ?? "" }),
   component: VerifyOtpPage,
 });

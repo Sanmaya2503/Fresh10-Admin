@@ -5,9 +5,9 @@ import { OrdersView } from "./orders.index";
 export const Route = createFileRoute("/orders/cancelled")({
   head: () => ({
     meta: [
-      { title: "Cancelled Orders — fresh15 Admin" },
+      { title: "Cancelled Orders — Fresh15 Admin" },
       { name: "description", content: "Cancelled and refunded orders." },
-      { property: "og:title", content: "Cancelled Orders — fresh15 Admin" },
+      { property: "og:title", content: "Cancelled Orders — Fresh15 Admin" },
       { property: "og:description", content: "Cancelled and refunded orders." },
     ],
   }),

@@ -1,7 +1,7 @@
-# fresh15 Platform Next.js Build Verification
+# Fresh15 Platform Next.js Build Verification
 
 ## Migration source
-Built from the original `fresh15 Platform Hub` project and migrated to Next.js App Router.
+Built from the original `Fresh15 Platform Hub` project and migrated to Next.js App Router.
 
 ## Latest source fixes
 - Centralized Next.js router compatibility typing for route metadata.

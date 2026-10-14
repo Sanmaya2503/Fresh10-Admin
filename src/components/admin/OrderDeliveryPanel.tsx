@@ -123,7 +123,7 @@ export function OrderDeliveryPanel({ orderId, orderStatus }: { orderId: string; 
                       destination={live.destination}
                       deliveryId={delivery._id}
                       token={token}
-                      routeBaseUrl="https://fresh15-backend.onrender.com"
+                      routeBaseUrl="https://fresh10-backend.onrender.com"
                       partnerName={rider?.name ?? "Delivery partner"}
                       orderStatus={deliveryStateText(delivery)}
                     />

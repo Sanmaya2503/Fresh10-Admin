@@ -33,7 +33,7 @@ export const Route = createFileRoute("/analytics")({
   head: () => ({
     meta: [
       {
-        title: "Analytics — fresh15 Admin",
+        title: "Analytics — Fresh15 Admin",
       },
       {
         name: "description",

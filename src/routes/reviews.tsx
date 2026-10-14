@@ -18,10 +18,10 @@ import { useReviews, useReviewMutations, reviewProduct, reviewUser, type ApiRevi
 export const Route = createFileRoute("/reviews")({
   head: () => ({
     meta: [
-      { title: "Product Reviews — fresh15 Admin" },
-      { name: "description", content: "Moderate customer product reviews, ratings and visibility across fresh15." },
-      { property: "og:title", content: "Product Reviews — fresh15 Admin" },
-      { property: "og:description", content: "Moderate customer product reviews, ratings and visibility across fresh15." },
+      { title: "Product Reviews — Fresh15 Admin" },
+      { name: "description", content: "Moderate customer product reviews, ratings and visibility across Fresh15." },
+      { property: "og:title", content: "Product Reviews — Fresh15 Admin" },
+      { property: "og:description", content: "Moderate customer product reviews, ratings and visibility across Fresh15." },
     ],
   }),
   component: ReviewsPage,

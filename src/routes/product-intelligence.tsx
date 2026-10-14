@@ -8,8 +8,8 @@ import { MousePointerClick, RefreshCw, ShoppingCart, Sparkles, Target, TrendingU
 export const Route = createFileRoute("/product-intelligence")({
   head: () => ({
     meta: [
-      { title: "Product Intelligence — fresh15 Admin" },
-      { name: "description", content: "fresh15 personalization, Smart Basket and offer performance." },
+      { title: "Product Intelligence — Fresh15 Admin" },
+      { name: "description", content: "Fresh15 personalization, Smart Basket and offer performance." },
     ],
   }),
   component: ProductIntelligencePage,
@@ -71,7 +71,7 @@ function ProductIntelligencePage() {
       </div>
 
       <Card className="p-5">
-        <div className="font-semibold">How fresh15 ranks today</div>
+        <div className="font-semibold">How Fresh15 ranks today</div>
         <div className="mt-2 text-sm text-muted-foreground">
           First-party purchase history, wishlist, replenishment timing, seasonality, rating, discount and inventory availability are combined with diversity rules. The financial and inventory services remain authoritative.
         </div>

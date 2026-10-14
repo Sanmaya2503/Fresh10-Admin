@@ -40,7 +40,7 @@ export function AssignRiderDialog({
       <DialogContent>
         <DialogHeader>
           <DialogTitle>{current ? "Reassign rider" : "Assign rider"}</DialogTitle>
-          <DialogDescription>Only currently available fresh15 partners are shown. The backend performs an atomic availability check when you assign.</DialogDescription>
+          <DialogDescription>Only currently available Fresh15 partners are shown. The backend performs an atomic availability check when you assign.</DialogDescription>
         </DialogHeader>
         <div className="space-y-3">
           <div className="flex items-center justify-between text-xs text-muted-foreground">

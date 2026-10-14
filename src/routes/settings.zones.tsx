@@ -16,7 +16,7 @@ import { deliveryConfigApi, type AdminDeliveryZone } from "@/lib/delivery-slot-a
 import { useAuth } from "@/lib/auth";
 
 export const Route = createFileRoute("/settings/zones")({
-  head: () => ({ meta: [{ title: "Delivery Zones — fresh15 Admin" }] }),
+  head: () => ({ meta: [{ title: "Delivery Zones — Fresh15 Admin" }] }),
   component: ZonesPage,
 });
 

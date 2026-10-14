@@ -8,7 +8,7 @@ import { useAdminAuditLogs, type ApiAuditLog } from "@/lib/audit-api";
 import { Card } from "@/components/ui/card";
 
 export const Route = createFileRoute("/audit-logs")({
-  head: () => ({ meta: [{ title: "Audit Logs — fresh15 Admin" }, { name: "description", content: "Application audit trail for security, operations and compliance." }] }),
+  head: () => ({ meta: [{ title: "Audit Logs — Fresh15 Admin" }, { name: "description", content: "Application audit trail for security, operations and compliance." }] }),
   component: AuditLogsPage,
 });
 
@@ -30,7 +30,7 @@ function AuditLogsPage() {
       <PageHeader title="Audit Logs" description="Track important application actions with actor, IP, request and outcome context." />
 
       <Card className="p-4 text-xs text-muted-foreground">
-        IP is captured server-side. Location is optional coarse geolocation from trusted deployment headers when available; fresh15 does not derive or store exact GPS coordinates for audit records.
+        IP is captured server-side. Location is optional coarse geolocation from trusted deployment headers when available; Fresh15 does not derive or store exact GPS coordinates for audit records.
       </Card>
 
       {isLoading ? (

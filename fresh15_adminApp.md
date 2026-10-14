@@ -1,12 +1,12 @@
-# fresh15 Admin App — Documentation
+# Fresh15 Admin App — Documentation
 
-A high-fidelity, frontend-only admin console for the fresh15 grocery platform. All data is mock/demo; every API is simulated. Built with TanStack Start, TanStack Router, TailwindCSS, shadcn/ui, Recharts, and Sonner.
+A high-fidelity, frontend-only admin console for the Fresh15 grocery platform. All data is mock/demo; every API is simulated. Built with TanStack Start, TanStack Router, TailwindCSS, shadcn/ui, Recharts, and Sonner.
 
 ---
 
 ## 1. Overview
 
-fresh15 Admin is an enterprise-grade dashboard that lets operators manage the entire fresh15 marketplace — orders, customers, delivery partners, inventory, marketing, payments, support, notifications, and store settings. Its design language mirrors the fresh15 Customer App (green primary, oklch tokens, rounded 2xl cards, generous whitespace).
+Fresh15 Admin is an enterprise-grade dashboard that lets operators manage the entire Fresh15 marketplace — orders, customers, delivery partners, inventory, marketing, payments, support, notifications, and store settings. Its design language mirrors the Fresh15 Customer App (green primary, oklch tokens, rounded 2xl cards, generous whitespace).
 
 - **Frontend only** — no backend, no network calls.
 - **Deterministic mock data** — `src/lib/mock-data.ts` seeds every entity (products, orders, customers, partners) so relationships stay consistent.
@@ -21,7 +21,7 @@ fresh15 Admin is an enterprise-grade dashboard that lets operators manage the en
 |---|---|
 | Framework | TanStack Start v1 (React 19, Vite 7) |
 | Routing | TanStack Router (file-based, `src/routes/`) |
-| Styling | Tailwind v4 + shadcn/ui + custom fresh15 theme in `src/styles.css` |
+| Styling | Tailwind v4 + shadcn/ui + custom Fresh15 theme in `src/styles.css` |
 | Charts | Recharts |
 | Toasts | Sonner |
 | Icons | Lucide React |
@@ -139,7 +139,7 @@ Personal info, 2FA toggle, session auto-lock, notification preferences.
 ## 7. Design System
 
 Defined in `src/styles.css` using Tailwind v4 `@theme`:
-- **Primary**: fresh15 Green (oklch)
+- **Primary**: Fresh15 Green (oklch)
 - **Radii**: `2xl` default on cards, `xl` on inputs
 - **Typography**: system UI stack; numeric column uses `.number` (tabular-nums)
 - **Dark mode**: `.dark` class on `<html>`; toggled from TopBar, persisted in `localStorage`

@@ -11,7 +11,7 @@ import { CalendarClock, Pin, RefreshCw, ShoppingBasket, Users } from "lucide-rea
 import { inr } from "@/lib/format";
 
 export const Route = createFileRoute("/weekly-lists")({
-  head: () => ({ meta: [{ title: "Weekly Lists — fresh15 Admin" }, { name: "description", content: "Monitor saved weekly grocery baskets and recurring customer demand." }] }),
+  head: () => ({ meta: [{ title: "Weekly Lists — Fresh15 Admin" }, { name: "description", content: "Monitor saved weekly grocery baskets and recurring customer demand." }] }),
   component: WeeklyListsPage,
 });
 

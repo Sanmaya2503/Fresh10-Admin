@@ -25,10 +25,10 @@ import {
 export const Route = createFileRoute("/notifications")({
   head: () => ({
     meta: [
-      { title: "Notifications — fresh15 Admin" },
-      { name: "description", content: "Read, manage and send in-app notifications to fresh15 users." },
-      { property: "og:title", content: "Notifications — fresh15 Admin" },
-      { property: "og:description", content: "Read, manage and send in-app notifications to fresh15 users." },
+      { title: "Notifications — Fresh15 Admin" },
+      { name: "description", content: "Read, manage and send in-app notifications to Fresh15 users." },
+      { property: "og:title", content: "Notifications — Fresh15 Admin" },
+      { property: "og:description", content: "Read, manage and send in-app notifications to Fresh15 users." },
     ],
   }),
   component: NotificationsPage,

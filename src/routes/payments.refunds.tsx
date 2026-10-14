@@ -27,7 +27,7 @@ import { useState } from "react";
 export const Route = createFileRoute("/payments/refunds")({
   head: () => ({
     meta: [
-      { title: "Refund Center — fresh15 Admin" },
+      { title: "Refund Center — Fresh15 Admin" },
       {
         name: "description",
         content: "Manage refunds and disputes.",
