@@ -135,7 +135,7 @@ function summaryText(confirmation: AgentConfirmation): string[] {
   return lines;
 }
 
-export function fresh10AiAgent() {
+export function fresh15AiAgent() {
   const { token } = useAuth();
 
   const [open, setOpen] = useState(false);
@@ -150,7 +150,7 @@ export function fresh10AiAgent() {
   const [messages, setMessages] = useState<AgentMessage[]>([
     {
       role: "assistant",
-      content: "Hi! I’m fresh10 Agent. I can help with permitted fresh10 admin-side tasks.",
+      content: "Hi! I’m fresh15 Agent. I can help with permitted fresh15 admin-side tasks.",
     },
   ]);
 
@@ -203,7 +203,7 @@ export function fresh10AiAgent() {
       toast.error(
         error instanceof Error
           ? error.message
-          : "fresh10 Agent is unavailable.",
+          : "fresh15 Agent is unavailable.",
       );
     } finally {
       setLoading(false);
@@ -239,7 +239,7 @@ export function fresh10AiAgent() {
       ]);
 
       setPendingConfirmation(null);
-      toast.success("fresh10 action completed");
+      toast.success("fresh15 action completed");
     } catch (error) {
       toast.error(
         error instanceof Error
@@ -288,17 +288,17 @@ export function fresh10AiAgent() {
     <>
       <button
         type="button"
-        aria-label="Open fresh10 AI Agent"
+        aria-label="Open fresh15 AI Agent"
         onClick={() => setOpen(true)}
         className="fixed bottom-5 right-5 z-[71] flex items-center gap-2 rounded-full border border-primary/30 bg-background px-4 py-2.5 text-xs font-bold text-foreground shadow-lg transition hover:-translate-y-0.5 hover:border-primary hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-primary/30"
       >
         <WandSparkles className="h-4 w-4 text-primary" />
-        fresh10 Agent
+        fresh15 Agent
       </button>
 
       {open && (
         <section
-          aria-label="fresh10 AI Agent"
+          aria-label="fresh15 AI Agent"
           className="fixed bottom-20 right-5 z-[71] flex h-[min(680px,78dvh)] max-h-[78dvh] w-[min(420px,calc(100vw-32px))] flex-col overflow-hidden rounded-3xl border bg-background shadow-2xl"
           onWheel={(event) => event.stopPropagation()}
           onTouchMove={(event) => event.stopPropagation()}
@@ -310,7 +310,7 @@ export function fresh10AiAgent() {
               </span>
 
               <div>
-                <div className="font-black">fresh10 Agent</div>
+                <div className="font-black">fresh15 Agent</div>
                 <div className="flex items-center gap-1 text-[11px] text-muted-foreground">
                   <ShieldCheck className="h-3.5 w-3.5" />
                   Action-based assistant
@@ -320,7 +320,7 @@ export function fresh10AiAgent() {
 
             <button
               type="button"
-              aria-label="Close fresh10 Agent"
+              aria-label="Close fresh15 Agent"
               onClick={() => setOpen(false)}
               className="rounded-full p-2 hover:bg-muted"
             >
@@ -363,7 +363,7 @@ export function fresh10AiAgent() {
                   </div>
 
                   <p className="mt-1 text-xs text-muted-foreground">
-                    Review this action before fresh10 executes it.
+                    Review this action before fresh15 executes it.
                   </p>
 
                   <div className="mt-3 space-y-1.5 text-xs">
@@ -446,7 +446,7 @@ export function fresh10AiAgent() {
                 rows={1}
                 maxLength={1200}
                 disabled={loading || confirming}
-                placeholder="Ask about permitted fresh10 tasks..."
+                placeholder="Ask about permitted fresh15 tasks..."
                 className="max-h-28 min-h-10 flex-1 resize-none rounded-2xl border bg-background px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-primary"
               />
 

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Lock } from "lucide-react";
 
 export const Route = createFileRoute("/auth/signup")({
-  head: () => ({ meta: [{ title: "Signup unavailable — fresh10 Admin" }] }),
+  head: () => ({ meta: [{ title: "Signup unavailable — fresh15 Admin" }] }),
   component: SignupUnavailablePage,
 });
 
@@ -17,7 +17,7 @@ function SignupUnavailablePage() {
       <div className="space-y-1">
         <h1 className="text-2xl font-semibold tracking-tight">Self sign-up is unavailable</h1>
         <p className="text-sm text-muted-foreground">
-          fresh10 Platform Hub accounts are provisioned directly by the fresh10 team. Please contact your administrator to have an admin account created for you.
+          fresh15 Platform Hub accounts are provisioned directly by the fresh15 team. Please contact your administrator to have an admin account created for you.
         </p>
       </div>
       <Button asChild className="w-full">

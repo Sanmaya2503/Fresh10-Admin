@@ -25,7 +25,7 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/partner-operations")({
   head: () => ({
     meta: [
-      { title: "Partner Operations — fresh10 Admin" },
+      { title: "Partner Operations — fresh15 Admin" },
       { name: "description", content: "Monitor delivery partner shifts, incidents, documents and cash reconciliation." },
     ],
   }),
@@ -96,7 +96,7 @@ function PartnerOperationsPage() {
   });
 
   const resolve = useMutation({
-    mutationFn: (id: string) => resolveAdminPartnerIncident(token, id, "RESOLVED", "Reviewed by fresh10 operations"),
+    mutationFn: (id: string) => resolveAdminPartnerIncident(token, id, "RESOLVED", "Reviewed by fresh15 operations"),
     onSuccess: () => {
       void qc.invalidateQueries({ queryKey: ["partner-operations", "incidents"] });
       void qc.invalidateQueries({ queryKey: ["partner-operations", "overview"] });

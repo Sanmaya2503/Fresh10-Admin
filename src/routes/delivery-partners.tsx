@@ -24,10 +24,10 @@ import { Bike, RefreshCw, ShieldAlert, Truck, CheckCircle2 } from "lucide-react"
 export const Route = createFileRoute("/delivery-partners")({
   head: () => ({
     meta: [
-      { title: "Delivery Partners — fresh10 Admin" },
-      { name: "description", content: "fresh10 delivery partners and their live assignments." },
-      { property: "og:title", content: "Delivery Partners — fresh10 Admin" },
-      { property: "og:description", content: "fresh10 delivery partners and their live assignments." },
+      { title: "Delivery Partners — fresh15 Admin" },
+      { name: "description", content: "fresh15 delivery partners and their live assignments." },
+      { property: "og:title", content: "Delivery Partners — fresh15 Admin" },
+      { property: "og:description", content: "fresh15 delivery partners and their live assignments." },
     ],
   }),
   component: PartnersPage,
@@ -196,7 +196,7 @@ function PartnersPage() {
     <div className="space-y-6">
       <PageHeader
         title="Delivery Partners"
-        description="Partner riders seen on fresh10 delivery records."
+        description="Partner riders seen on fresh15 delivery records."
         actions={
           <Button
             variant="outline"

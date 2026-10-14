@@ -16,7 +16,7 @@ import {
 } from "recharts";
 
 export const Route = createFileRoute("/")({
-  head: () => ({ meta: [{ title: "Dashboard — fresh10 Admin" }, { name: "description", content: "fresh10 platform overview: revenue, live orders, customers and partners." }] }),
+  head: () => ({ meta: [{ title: "Dashboard — fresh15 Admin" }, { name: "description", content: "fresh15 platform overview: revenue, live orders, customers and partners." }] }),
   component: Dashboard,
 });
 
@@ -28,7 +28,7 @@ function Dashboard() {
       <div className="space-y-6">
         <PageHeader
           title="Good morning, Aarav 👋"
-          description="Here's what's happening across fresh10 today."
+          description="Here's what's happening across fresh15 today."
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[0, 1, 2, 3].map((i) => (
@@ -44,7 +44,7 @@ function Dashboard() {
       <div className="space-y-6">
         <PageHeader
           title="Good morning, Aarav 👋"
-          description="Here's what's happening across fresh10 today."
+          description="Here's what's happening across fresh15 today."
         />
         <Card className="p-5">
           <div className="text-sm font-semibold">Unable to load dashboard</div>
@@ -72,7 +72,7 @@ function Dashboard() {
     <div className="space-y-6">
       <PageHeader
         title="Good morning, Aarav 👋"
-        description="Here's what's happening across fresh10 today."
+        description="Here's what's happening across fresh15 today."
         actions={
           <>
             <Button variant="outline" size="sm"><Sparkles className="h-4 w-4" /> AI insights</Button>

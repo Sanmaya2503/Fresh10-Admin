@@ -9,7 +9,7 @@ import { toast } from "sonner";
 import { Loader2 } from "lucide-react";
 
 export const Route = createFileRoute("/auth/login")({
-  head: () => ({ meta: [{ title: "Sign in — fresh10 Admin" }] }),
+  head: () => ({ meta: [{ title: "Sign in — fresh15 Admin" }] }),
   component: LoginPage,
 });
 
@@ -63,7 +63,7 @@ function LoginPage() {
         </Button>
       </form>
       <div className="rounded-lg border bg-muted/40 p-3 text-xs text-muted-foreground">
-        Platform Hub access is provisioned by your fresh10 administrator. Contact your admin if you need an account.
+        Platform Hub access is provisioned by your fresh15 administrator. Contact your admin if you need an account.
       </div>
     </div>
   );

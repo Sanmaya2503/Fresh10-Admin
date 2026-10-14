@@ -23,7 +23,7 @@ import { useCallback, useEffect, useState } from "react";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/inventory/categories")({
-  head: () => ({ meta: [{ title: "Categories — fresh10 Admin" }, { name: "description", content: "Manage product categories." }] }),
+  head: () => ({ meta: [{ title: "Categories — fresh15 Admin" }, { name: "description", content: "Manage product categories." }] }),
   component: CategoriesPage,
 });
 

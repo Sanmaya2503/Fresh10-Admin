@@ -28,10 +28,10 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/deliveries")({
   head: () => ({
     meta: [
-      { title: "Deliveries — fresh10 Admin" },
-      { name: "description", content: "Track deliveries, assign riders and monitor fulfilment across fresh10." },
-      { property: "og:title", content: "Deliveries — fresh10 Admin" },
-      { property: "og:description", content: "Track deliveries, assign riders and monitor fulfilment across fresh10." },
+      { title: "Deliveries — fresh15 Admin" },
+      { name: "description", content: "Track deliveries, assign riders and monitor fulfilment across fresh15." },
+      { property: "og:title", content: "Deliveries — fresh15 Admin" },
+      { property: "og:description", content: "Track deliveries, assign riders and monitor fulfilment across fresh15." },
     ],
   }),
   component: DeliveriesPage,
@@ -143,7 +143,7 @@ function DeliveriesPage() {
     <div className="space-y-6">
       <PageHeader
         title="Deliveries"
-        description="Live fulfilment records from the fresh10 delivery service."
+        description="Live fulfilment records from the fresh15 delivery service."
         actions={
           <>
             <Button variant="outline" size="sm" onClick={() => void refetch()} disabled={isFetching}>

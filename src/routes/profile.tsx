@@ -22,10 +22,10 @@ import {
 export const Route = createFileRoute("/profile")({
   head: () => ({
     meta: [
-      { title: "Admin Profile — fresh10 Platform Hub" },
-      { name: "description", content: "Manage your fresh10 admin account, avatar, security and notification preferences." },
-      { property: "og:title", content: "Admin Profile — fresh10 Platform Hub" },
-      { property: "og:description", content: "Manage your fresh10 admin account, avatar, security and notification preferences." },
+      { title: "Admin Profile — fresh15 Platform Hub" },
+      { name: "description", content: "Manage your fresh15 admin account, avatar, security and notification preferences." },
+      { property: "og:title", content: "Admin Profile — fresh15 Platform Hub" },
+      { property: "og:description", content: "Manage your fresh15 admin account, avatar, security and notification preferences." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

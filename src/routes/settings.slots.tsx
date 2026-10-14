@@ -15,7 +15,7 @@ import { deliveryConfigApi, minutesToTime, timeToMinutes, type AdminDeliverySlot
 import { useAuth } from "@/lib/auth";
 
 export const Route = createFileRoute("/settings/slots")({
-  head: () => ({ meta: [{ title: "Time Slots — fresh10 Admin" }] }),
+  head: () => ({ meta: [{ title: "Time Slots — fresh15 Admin" }] }),
   component: SlotsPage,
 });
 

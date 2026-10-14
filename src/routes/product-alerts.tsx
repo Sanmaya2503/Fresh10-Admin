@@ -25,7 +25,7 @@ import { inr } from "@/lib/format";
 export const Route = createFileRoute("/product-alerts")({
   head: () => ({
     meta: [
-      { title: "Product Alerts — fresh10 Admin" },
+      { title: "Product Alerts — fresh15 Admin" },
       {
         name: "description",
         content: "Monitor customer demand for back-in-stock and price-drop alerts.",

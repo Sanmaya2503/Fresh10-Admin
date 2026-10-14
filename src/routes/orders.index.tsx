@@ -45,17 +45,17 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/orders/")({
   head: () => ({
     meta: [
-      { title: "Orders — fresh10 Admin" },
-      { name: "description", content: "All orders across fresh10 platform." },
-      { property: "og:title", content: "Orders — fresh10 Admin" },
-      { property: "og:description", content: "All orders across fresh10 platform." },
+      { title: "Orders — fresh15 Admin" },
+      { name: "description", content: "All orders across fresh15 platform." },
+      { property: "og:title", content: "Orders — fresh15 Admin" },
+      { property: "og:description", content: "All orders across fresh15 platform." },
     ],
   }),
   component: OrdersPage,
 });
 
 function OrdersPage() {
-  return <OrdersView title="All Orders" description="Every order placed across fresh10." />;
+  return <OrdersView title="All Orders" description="Every order placed across fresh15." />;
 }
 
 export function OrdersView({ title, description, group }: { title: string; description: string; group?: OrderGroup }) {

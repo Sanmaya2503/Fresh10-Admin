@@ -16,9 +16,9 @@ import { useState } from "react";
 export const Route = createFileRoute("/payments/razorpay")({
   head: () => ({
     meta: [
-      { title: "Razorpay Reports — fresh10 Admin" },
+      { title: "Razorpay Reports — fresh15 Admin" },
       { name: "description", content: "Razorpay settlement and transaction reports." },
-      { property: "og:title", content: "Razorpay Reports — fresh10 Admin" },
+      { property: "og:title", content: "Razorpay Reports — fresh15 Admin" },
       { property: "og:description", content: "Razorpay settlement and transaction reports." },
     ],
   }),

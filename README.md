@@ -1,6 +1,6 @@
-# fresh10 Platform — Next.js
+# fresh15 Platform — Next.js
 
-Next.js 16 App Router migration of the fresh10 Platform/Admin Hub.
+Next.js 16 App Router migration of the fresh15 Platform/Admin Hub.
 
 ## Commands
 
@@ -16,7 +16,7 @@ npm start
 Copy `.env.example` to `.env.local` and update:
 
 ```env
-NEXT_PUBLIC_API_BASE_URL=https://fresh10-backend.onrender.com
+NEXT_PUBLIC_API_BASE_URL=https://fresh15-backend.onrender.com
 ```
 
 ## Architecture

@@ -26,9 +26,9 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/marketing/coupons")({
   head: () => ({
     meta: [
-      { title: "Coupons — fresh10 Admin" },
+      { title: "Coupons — fresh15 Admin" },
       { name: "description", content: "Manage discount coupons." },
-      { property: "og:title", content: "Coupons — fresh10 Admin" },
+      { property: "og:title", content: "Coupons — fresh15 Admin" },
       { property: "og:description", content: "Manage discount coupons." },
     ],
   }),

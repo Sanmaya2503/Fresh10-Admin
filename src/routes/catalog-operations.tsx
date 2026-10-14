@@ -21,7 +21,7 @@ import { CheckCircle2, Download, FileSpreadsheet, Image as ImageIcon, Loader2, R
 
 export const Route = createFileRoute("/catalog-operations")({
   head: () => ({ meta: [
-    { title: "Catalog Operations — fresh10 Admin" },
+    { title: "Catalog Operations — fresh15 Admin" },
     { name: "description", content: "Bulk catalog import, image processing and product quality control." },
   ] }),
   component: CatalogOperationsPage,

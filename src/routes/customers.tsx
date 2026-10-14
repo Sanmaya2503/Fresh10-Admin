@@ -37,10 +37,10 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/customers")({
   head: () => ({
     meta: [
-      { title: "Customers — fresh10 Admin" },
-      { name: "description", content: "Manage the fresh10 customer base." },
-      { property: "og:title", content: "Customers — fresh10 Admin" },
-      { property: "og:description", content: "Manage the fresh10 customer base." },
+      { title: "Customers — fresh15 Admin" },
+      { name: "description", content: "Manage the fresh15 customer base." },
+      { property: "og:title", content: "Customers — fresh15 Admin" },
+      { property: "og:description", content: "Manage the fresh15 customer base." },
     ],
   }),
   component: CustomersPage,
@@ -218,7 +218,7 @@ function CustomersPage() {
     <div className="space-y-6">
       <PageHeader
         title="Customers"
-        description="Everyone who has ordered from fresh10."
+        description="Everyone who has ordered from fresh15."
         actions={
           <Button size="sm" onClick={() => setOpen(true)}>
             <UserPlus className="h-4 w-4" /> Add customer
