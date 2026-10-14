@@ -25,10 +25,10 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/inventory/stock")({
   head: () => ({
     meta: [
-      { title: "Stock — Fresh15 Admin" },
-      { name: "description", content: "Live inventory levels across the Fresh15 catalog." },
-      { property: "og:title", content: "Stock — Fresh15 Admin" },
-      { property: "og:description", content: "Live inventory levels across the Fresh15 catalog." },
+      { title: "Stock — fresh10 Admin" },
+      { name: "description", content: "Live inventory levels across the fresh10 catalog." },
+      { property: "og:title", content: "Stock — fresh10 Admin" },
+      { property: "og:description", content: "Live inventory levels across the fresh10 catalog." },
     ],
   }),
   component: StockPage,

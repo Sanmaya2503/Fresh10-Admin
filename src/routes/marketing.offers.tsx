@@ -18,7 +18,7 @@ import { useState } from "react";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/marketing/offers")({
-  head: () => ({ meta: [{ title: "Offers — Fresh15 Admin" }, { name: "description", content: "Featured promotions across the storefront." }] }),
+  head: () => ({ meta: [{ title: "Offers — fresh10 Admin" }, { name: "description", content: "Featured promotions across the storefront." }] }),
   component: OffersPage,
 });
 

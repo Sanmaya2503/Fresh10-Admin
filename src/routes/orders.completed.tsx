@@ -5,9 +5,9 @@ import { OrdersView } from "./orders.index";
 export const Route = createFileRoute("/orders/completed")({
   head: () => ({
     meta: [
-      { title: "Completed Orders — Fresh15 Admin" },
+      { title: "Completed Orders — fresh10 Admin" },
       { name: "description", content: "Successfully delivered orders." },
-      { property: "og:title", content: "Completed Orders — Fresh15 Admin" },
+      { property: "og:title", content: "Completed Orders — fresh10 Admin" },
       { property: "og:description", content: "Successfully delivered orders." },
     ],
   }),

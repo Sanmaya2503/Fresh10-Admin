@@ -12,7 +12,7 @@ import { deliveryConfigApi, type AdminDeliveryStore } from "@/lib/delivery-slot-
 import { useAuth } from "@/lib/auth";
 
 export const Route = createFileRoute("/settings/store")({
-  head: () => ({ meta: [{ title: "Store Settings — Fresh15 Admin" }] }),
+  head: () => ({ meta: [{ title: "Store Settings — fresh10 Admin" }] }),
   component: StoreSettingsPage,
 });
 
@@ -20,7 +20,7 @@ function StoreSettingsPage() {
   const { token } = useAuth();
   const [stores, setStores] = useState<AdminDeliveryStore[]>([]);
   const [draft, setDraft] = useState({
-    name: "Fresh15 Dark Store",
+    name: "fresh10 Dark Store",
     code: "PUNE-01",
     latitude: "",
     longitude: "",

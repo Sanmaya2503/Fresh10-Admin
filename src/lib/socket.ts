@@ -2,7 +2,7 @@ import { io, type Socket } from "socket.io-client";
 import { API_BASE_URL } from "./auth";
 
 /**
- * Reusable socket service — a single shared connection to the Fresh15 backend.
+ * Reusable socket service — a single shared connection to the fresh10 backend.
  * REST APIs are untouched; sockets only deliver realtime updates.
  */
 

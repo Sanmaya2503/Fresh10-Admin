@@ -75,7 +75,7 @@ export function AppSidebar() {
       <SidebarHeader className="border-b">
         <Link to="/" className="flex items-center gap-2.5 px-2 py-3">
           <div className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-primary text-primary-foreground shadow-sm"><Leaf className="h-5 w-5" /></div>
-          <div className="min-w-0 group-data-[collapsible=icon]:hidden"><div className="truncate text-sm font-semibold tracking-tight">Fresh15</div><div className="truncate text-[11px] text-muted-foreground">Admin Console</div></div>
+          <div className="min-w-0 group-data-[collapsible=icon]:hidden"><div className="truncate text-sm font-semibold tracking-tight">fresh10</div><div className="truncate text-[11px] text-muted-foreground">Admin Console</div></div>
         </Link>
       </SidebarHeader>
       <SidebarContent className="gap-0">

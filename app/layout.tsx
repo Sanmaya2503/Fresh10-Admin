@@ -4,8 +4,8 @@ import { AppShell } from "@/components/app-shell";
 import "@/styles.css";
 
 export const metadata: Metadata = {
-  title: "Fresh15 Admin",
-  description: "Fresh15 platform overview, orders, customers, partners, inventory and payments.",
+  title: "fresh10 Admin",
+  description: "fresh10 platform overview, orders, customers, partners, inventory and payments.",
   icons: { icon: "/icon.svg" },
 };
 

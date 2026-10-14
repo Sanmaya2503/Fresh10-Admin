@@ -1,4 +1,4 @@
-// Deterministic demo data for Fresh15 Admin. Frontend-only, no backend.
+// Deterministic demo data for fresh10 Admin. Frontend-only, no backend.
 
 const FIRST = ["Aarav","Priya","Rohan","Meera","Kabir","Ananya","Vikram","Isha","Arjun","Diya","Rehan","Zara","Aditya","Kavya","Nikhil","Riya","Sameer","Tara","Yash","Neha","Dev","Sara","Omkar","Pooja","Rahul","Simran","Ishaan","Aisha","Karan","Naina"];
 const LAST = ["Sharma","Verma","Iyer","Patel","Kapoor","Rao","Menon","Singh","Nair","Reddy","Bose","Joshi","Malhotra","Chopra","Bhat","Desai","Shah","Gupta","Khan","Pillai"];
@@ -201,7 +201,7 @@ export const ORDERS: Order[] = (() => {
 
 export type Coupon = { id: string; code: string; type: "percent" | "flat"; value: number; minOrder: number; usage: number; limit: number; expires: string; active: boolean; };
 export const COUPONS: Coupon[] = [
-  { id: "cpn_01", code: "FRESH15", type: "percent", value: 15, minOrder: 299, usage: 1284, limit: 5000, expires: "2026-08-30", active: true },
+  { id: "cpn_01", code: "fresh10", type: "percent", value: 15, minOrder: 299, usage: 1284, limit: 5000, expires: "2026-08-30", active: true },
   { id: "cpn_02", code: "NEW50", type: "flat", value: 50, minOrder: 199, usage: 3402, limit: 10000, expires: "2026-12-31", active: true },
   { id: "cpn_03", code: "WEEKEND", type: "percent", value: 10, minOrder: 499, usage: 512, limit: 2000, expires: "2026-07-30", active: true },
   { id: "cpn_04", code: "BIGSAVE100", type: "flat", value: 100, minOrder: 799, usage: 220, limit: 1000, expires: "2026-09-15", active: false },

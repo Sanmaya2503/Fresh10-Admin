@@ -16,7 +16,7 @@ import { dateTime, relTime } from "@/lib/format";
 import { useSupportMutations, useSupportTicket, useSupportTickets, type SupportStatus, type SupportTicket } from "@/lib/support-api";
 
 export const Route = createFileRoute("/support")({
-  head: () => ({ meta: [{ title: "Support Tickets — Fresh15 Admin" }] }),
+  head: () => ({ meta: [{ title: "Support Tickets — fresh10 Admin" }] }),
   component: SupportPage,
 });
 

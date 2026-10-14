@@ -52,8 +52,8 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/inventory/products")({
   head: () => ({
     meta: [
-      { title: "Products — Fresh15 Admin" },
-      { name: "description", content: "Manage inventory across the Fresh15 catalog." },
+      { title: "Products — fresh10 Admin" },
+      { name: "description", content: "Manage inventory across the fresh10 catalog." },
     ],
   }),
   component: ProductsPage,

@@ -6,8 +6,8 @@ import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/admin/AppSidebar";
 import { TopBar } from "@/components/admin/TopBar";
 import { useAuth } from "@/lib/auth";
-import { Fresh15AiAssistant } from "@/components/common/Fresh15AiAssistant";
-import { Fresh15AiAgent } from "@/components/common/Fresh15AiAgent";
+import { fresh10AiAssistant } from "@/components/common/fresh10AiAssistant";
+import { fresh10AiAgent } from "@/components/common/fresh10AiAgent";
 
 export function AppShell({ children }: { children: ReactNode }) {
   const pathname = usePathname() ?? "/";
@@ -42,8 +42,8 @@ export function AppShell({ children }: { children: ReactNode }) {
           <main className="flex-1 p-4 sm:p-6 lg:p-8 page-enter">{children}</main>
         </SidebarInset>
       </div>
-      <Fresh15AiAssistant />
-      {/* <Fresh15AiAgent /> */}
+      <fresh10AiAssistant />
+      {/* <fresh10AiAgent /> */}
     </SidebarProvider>
   );
 }

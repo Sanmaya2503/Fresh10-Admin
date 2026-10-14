@@ -16,9 +16,9 @@ import { useState } from "react";
 export const Route = createFileRoute("/payments/cod")({
   head: () => ({
     meta: [
-      { title: "COD Reports — Fresh15 Admin" },
+      { title: "COD Reports — fresh10 Admin" },
       { name: "description", content: "Cash on delivery collection reports." },
-      { property: "og:title", content: "COD Reports — Fresh15 Admin" },
+      { property: "og:title", content: "COD Reports — fresh10 Admin" },
       { property: "og:description", content: "Cash on delivery collection reports." },
     ],
   }),

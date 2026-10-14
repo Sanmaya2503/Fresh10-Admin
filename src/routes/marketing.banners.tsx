@@ -19,7 +19,7 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/marketing/banners")({
   head: () => ({
     meta: [
-      { title: "Banners — Fresh15 Admin" },
+      { title: "Banners — fresh10 Admin" },
       { name: "description", content: "App and web banner placements." },
     ],
   }),

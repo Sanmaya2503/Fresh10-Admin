@@ -5,9 +5,9 @@ import { OrdersView } from "./orders.index";
 export const Route = createFileRoute("/orders/live")({
   head: () => ({
     meta: [
-      { title: "Live Orders — Fresh15 Admin" },
+      { title: "Live Orders — fresh10 Admin" },
       { name: "description", content: "Orders currently being fulfilled and delivered." },
-      { property: "og:title", content: "Live Orders — Fresh15 Admin" },
+      { property: "og:title", content: "Live Orders — fresh10 Admin" },
       { property: "og:description", content: "Orders currently being fulfilled and delivered." },
     ],
   }),

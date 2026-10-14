@@ -9,7 +9,7 @@ import { toast } from "sonner";
 import { Loader2 } from "lucide-react";
 
 export const Route = createFileRoute("/auth/forgot-password")({
-  head: () => ({ meta: [{ title: "Forgot password — Fresh15 Admin" }] }),
+  head: () => ({ meta: [{ title: "Forgot password — fresh10 Admin" }] }),
   component: ForgotPage,
 });
 

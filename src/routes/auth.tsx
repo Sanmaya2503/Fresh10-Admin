@@ -10,7 +10,7 @@ export function AuthLayout({ children }: { children: ReactNode }) {
             <Leaf className="h-5 w-5" />
           </div>
           <div>
-            <div className="text-sm font-semibold">Fresh15</div>
+            <div className="text-sm font-semibold">fresh10</div>
             <div className="text-[11px] opacity-80">Admin Console</div>
           </div>
         </div>
@@ -34,7 +34,7 @@ export function AuthLayout({ children }: { children: ReactNode }) {
             ))}
           </div>
         </div>
-        <div className="text-xs opacity-70">© 2026 Fresh15. All rights reserved.</div>
+        <div className="text-xs opacity-70">© 2026 fresh10. All rights reserved.</div>
       </div>
       <div className="flex items-center justify-center p-6 sm:p-10">
         <div className="w-full max-w-sm">
@@ -43,7 +43,7 @@ export function AuthLayout({ children }: { children: ReactNode }) {
               <Leaf className="h-5 w-5" />
             </div>
             <div>
-              <div className="text-sm font-semibold">Fresh15</div>
+              <div className="text-sm font-semibold">fresh10</div>
               <div className="text-[11px] text-muted-foreground">Admin Console</div>
             </div>
           </div>
